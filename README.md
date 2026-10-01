@@ -1,16 +1,16 @@
 # Doctor Information System
 
-A beginner-friendly Java console application that demonstrates object-oriented programming using a `Doctor` class.
+A simple Java console application that displays information about doctors.
 
 ## Features
 
-- Creates doctor objects with an ID, name, specialization, and salary
-- Displays each doctor's information
-- Uses constructors to initialize objects
-- Demonstrates methods such as introducing a doctor and showing their work area
-- Formats salary values to two decimal places
+- Creates doctor objects
+- Stores doctor ID, name, specialization, and salary
+- Introduces each doctor
+- Displays each doctor's work specialization
+- Displays doctor information in the console
 
-## Technologies
+## Technologies used
 
 - Java
 - Object-Oriented Programming (OOP)
@@ -18,25 +18,23 @@ A beginner-friendly Java console application that demonstrates object-oriented p
 ## Project structure
 
 ```text
-Doctor-Information-System/
+doctor-information-system-java/
 └── Doctor.java
 ```
 
 ## How to run
 
-1. Make sure Java is installed on your computer.
+1. Save the code as `Doctor.java`.
 
-2. Save the source code as `Doctor.java`.
+2. Open a terminal in the project folder.
 
-3. Open a terminal in the project folder.
-
-4. Compile the program:
+3. Compile the code:
 
 ```bash
 javac Doctor.java
 ```
 
-5. Run the program:
+4. Run the program:
 
 ```bash
 java Doctor
@@ -44,25 +42,24 @@ java Doctor
 
 ## Concepts practiced
 
-- Classes and objects
+- Class and objects
 - Constructors
-- Instance variables
-- Encapsulation with `private` fields
 - Methods
+- Variables
 - `this` keyword
-- Console output with `System.out.println()` and `System.out.printf()`
+- Console output
 
 ## Example output
 
 ```text
-Hello, I am Dr. Mostafa.
-Dr. Mostafa is working in Cardiology.
-Doctor ID: 3
-Doctor Name: Mostafa
-Specialization: Cardiology
-Salary: $10000.00
+Hello, my name is Dr. Mostafa.
+Dr. Mostafa works in Heart.
+Doctor ID = 3
+Doctor name: Mostafa
+Specialization: Heart
+Salary = 10000.0
 ```
 
 ## Author
 
-Created by **Your Name**.
+Created by **Bsmala Mohamed Abdulhamid**.
